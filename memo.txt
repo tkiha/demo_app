@@ -2,3 +2,4 @@ git remote add origin https://github.com/tkiha/demo_app.git
 git push -u origin master
 
 rails generate scaffold User name:string email:string
+rails generate scaffold Micropost content:string user_id:integer
